@@ -1,0 +1,6 @@
+
+barcode scanner 
+https://medium.com/@dinukadilshanfernando/implementing-a-barcode-scanner-by-using-react-native-camera-b170de4b7f51
+
+connect front end to back end 
+https://www.youtube.com/watch?v=kJA9rDX7azM
