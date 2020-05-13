@@ -1,3 +1,28 @@
+
+this.state = {
+      username: '',
+      password: '',
+    };
+  }
+
+  go = () => {
+           const reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            if (reg.test(this.state.email) === true){
+               alert('valid');
+           }
+           else{
+               alert();
+           }
+ 
+  }
+  
+  onLogin() {
+    const { username, password } = this.state;
+
+    Alert.alert('Credentials', `${username} + ${password}`);
+  }
+
+
 <TextInput
           value={this.state.username}
           onChangeText={(username) => this.setState({ username })}
