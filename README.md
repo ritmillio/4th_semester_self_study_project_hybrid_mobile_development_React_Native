@@ -10,6 +10,7 @@
     1.6 - expo start (Starts the expo server)
     1.7 - change frontend api endpoint to your local ip address
     1.8 --> run on your mobile(Expo app /QR code) or emulator
+    (have to install node modules inside frontend and backend folder as well)
 
 ### frontend- React Native(Expo framework)
 ### backend - Node.js/express.js/MongoDB
